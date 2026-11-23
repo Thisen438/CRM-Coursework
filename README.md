@@ -9,7 +9,7 @@
 | Path | Description |
 |---|---|
 | `CWK1_Stock_Segmentation_RFM.ipynb` | Google Colab notebook with all code and outputs |
-| `data/` | Saved data snapshot (raw daily prices, benchmark, constituent list, acquisition log, feature tables) |
+| `data/` | Saved data snapshot (raw daily prices, benchmark, constituent list, acquisition log with SHA-256 hashes, feature tables, cluster assignments, figures) |
 
 ## Task 1: Data preparation and feature engineering
 
@@ -17,6 +17,14 @@
 - Validation: 486 shares included, 17 excluded (no data, unequal history, zero volume), each with a logged reason. No prices are filled.
 - Weekly (W-FRI) Adj Close returns: mean weekly return and weekly beta against ^GSPC over 207 weeks.
 - Adapted volume RFM at 31 Dec 2024: high-volume day = volume > 2 × mean of the previous 20 sessions; Recency in calendar days; Frequency and Monetary (Close × Volume) over the latest 60 sessions.
+
+## Task 2: Stock segmentation and sensitivity analysis
+
+- Two separate standardised matrices: risk-return [mean weekly return, weekly beta] and trading activity [log1p Recency, Frequency, log1p Monetary].
+- Ward (Euclidean) and K-means (seed 42, n_init 20) for k = 2 to 8, compared with silhouette, inertia, cluster sizes and original-unit profiles. Selected: Ward risk-return k = 5, RFM k = 3; K-means risk-return k = 5, RFM k = 4.
+- Profiles in original units, PCA view of the RFM clusters, adjusted Rand index comparisons and K-means seed-stability checks.
+- RFM sensitivity: correlations among R, F and log1p(M), and a Ward rerun with R and F only (ARI 0.349).
+- Cluster labels for every share: `data/cluster_assignments.csv`.
 
 ## Reproducing the results
 

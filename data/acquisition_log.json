@@ -15,13 +15,21 @@
     "VYLR"
   ],
   "sha256": {
-    "features_task1.csv": "8644abd9f55f0b410e3eb45ea30a0f8071f9e69985c11b2e90ff0d4d50d7dd09",
+    "cluster_assignments.csv": "b5c85b3c51690416e9f7475e3c5370087a1ca2b616602a6df8bbdb006948b237",
+    "cluster_scatter_2d.png": "51277b7507b0c9fce03e6382ffc23221401f04c637638890c65890a1373b69e4",
+    "dendrogram_RFM.png": "e8ca0ef55a31d6a6573393eb698027d250e60a1df31b6a7c4a44962b4284d32e",
+    "dendrogram_risk_return.png": "2e7ebe0a5518134c7c9f081e6c896800d9d09eb28210b40216371579fe668e18",
+    "features_task1.csv": "f4d489204beab81c764c815fde1fb991b02ae41edb6c9c9761e2a1da3019fedb",
     "gspc_daily_raw_2021_2024.csv": "b25b2ac034e56b5dfb0b87bcaf9b73a1f1741dcae737e5f380eb62f431f82d1c",
     "inclusion_exclusion_log.csv": "9fd8d439024da7cc9a1275771ef05a2b0a95f2a9700bd4c5a12bdfd6119e68b3",
+    "kmeans_elbow_silhouette.png": "ec99dd543bf2b192302641eeaeb66b1ec0e2d3feaa68980511969c6f66883577",
+    "rfm_correlation.png": "7123250f576c9b52a298ba52e43908d0b4efcecb1dde534b6d0636b591156ecf",
     "rfm_features.csv": "aa0d9be419658292baa20870a4691f34229cbe6ccabc9a3cdb8c3d97e755e5f5",
-    "risk_return_features.csv": "f620c2fb4e77bcc44b2862be5b293d3c4af7ad2a50d4a6c1ab6b7a0fa3c5966c",
+    "risk_return_features.csv": "8453950465dade459f45c041ad6ee01356073ba2e4f507763733d54a4abac713",
+    "silhouette_plots.png": "176c8ce7d436b6253fe9001bad5739c3ce3c159f8b5cab639234c351f21cc572",
     "sp500_constituents.csv": "61a6c44a1a293d26f5cd0b7bea56c3a4aa11db232b7052ec3398716d8f4d12e6",
     "sp500_daily_raw_2021_2024.csv.gz": "61657387e96b9ba7dbd35894c5178680034591a6fdea0f034203a7f14f183c6c",
-    "task1_feature_distributions.png": "683ba8d25a27d72975c7741891d9178ca7b9addfad1964a6bbadf8b9a13c9600"
+    "task1_feature_distributions.png": "683ba8d25a27d72975c7741891d9178ca7b9addfad1964a6bbadf8b9a13c9600",
+    "ward_silhouette.png": "83e6aef3e7245c09165b495424972373663d58f3be8a24c4b4b0f9c56363e4dc"
   }
 }
