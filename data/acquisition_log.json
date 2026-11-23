@@ -1,0 +1,27 @@
+{
+  "ticker_source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+  "ticker_retrieved": "2026-11-22 20:18 UTC",
+  "price_source": "Yahoo Finance via yfinance 0.2.66",
+  "prices_downloaded": "2026-11-22 20:21 UTC",
+  "start_inclusive": "2021-01-01",
+  "end_exclusive": "2025-01-01",
+  "auto_adjust": false,
+  "n_tickers": 503,
+  "tickers_no_data": [
+    "FDXF",
+    "HONA",
+    "Q",
+    "SNDK",
+    "VYLR"
+  ],
+  "sha256": {
+    "features_task1.csv": "8644abd9f55f0b410e3eb45ea30a0f8071f9e69985c11b2e90ff0d4d50d7dd09",
+    "gspc_daily_raw_2021_2024.csv": "b25b2ac034e56b5dfb0b87bcaf9b73a1f1741dcae737e5f380eb62f431f82d1c",
+    "inclusion_exclusion_log.csv": "9fd8d439024da7cc9a1275771ef05a2b0a95f2a9700bd4c5a12bdfd6119e68b3",
+    "rfm_features.csv": "aa0d9be419658292baa20870a4691f34229cbe6ccabc9a3cdb8c3d97e755e5f5",
+    "risk_return_features.csv": "f620c2fb4e77bcc44b2862be5b293d3c4af7ad2a50d4a6c1ab6b7a0fa3c5966c",
+    "sp500_constituents.csv": "61a6c44a1a293d26f5cd0b7bea56c3a4aa11db232b7052ec3398716d8f4d12e6",
+    "sp500_daily_raw_2021_2024.csv.gz": "61657387e96b9ba7dbd35894c5178680034591a6fdea0f034203a7f14f183c6c",
+    "task1_feature_distributions.png": "683ba8d25a27d72975c7741891d9178ca7b9addfad1964a6bbadf8b9a13c9600"
+  }
+}
